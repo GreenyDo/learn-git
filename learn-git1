@@ -1,0 +1,48 @@
+版本库又名仓库repository
+
+创建版本库 (pwd命令用于显示当前目录）
+    cd d:/learngit
+    把当前目录变成git可以管理的仓库
+    git init
+    
+把文件添加到版本库
+  d:/learngit文件夹下新建一个readme.txt,编辑时用第三方文本编辑器(windows各种问题)
+  1.用git add 告诉git,把文件添加到仓库
+  git add readme.txt
+  2.用git commit告诉git,把文件提交到仓库
+  git commit -m "wrote a readme file"
+  
+修改readme.txt文件
+修改完后
+运行git status 查看仓库当前状态
+
+查看怎么修改的readme.txt
+git diff readme.txt
+
+修改后提交
+git add readme.txt
+
+git commit -m "add distributed"
+  
+ ---------------------------------------------------------------------------------------------------------------
+再次修改readme.txt文件
+git log命令显示从最近到最远的提交日志
+git log --pretty=oneline 可以精简显示commit id(版本号) 和版本更改说明
+
+版本回退：
+    HEAD表示当前版本，上一个版本HEAD^，上上一个版本HEAD^^,往上100个版本HEAD~100
+    
+    版本回退命令 git reset
+    git reset --hard HEAD^
+    
+    查看文本内容cat命令
+    cat readme.txt
+找回之后版本：
+    git reset --hard 789458
+    commit id 写前几位就可以
+    如果不记得可以用
+    git reflog
+    它记录了你的每一次命令
+    
+
+
