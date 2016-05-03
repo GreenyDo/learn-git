@@ -12,7 +12,17 @@
   2.用git commit告诉git,把文件提交到仓库
   git commit -m "wrote a readme file"
   
-  
+修改readme.txt文件
+修改完后
+运行git status 查看仓库当前状态
+
+查看怎么修改的readme.txt
+git diff readme.txt
+
+修改后提交
+git add readme.txt
+
+git commit -m "add distributed"
   
   
 
