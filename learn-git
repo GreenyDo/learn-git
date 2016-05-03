@@ -1,0 +1,19 @@
+版本库又名仓库repository
+
+创建版本库 (pwd命令用于显示当前目录）
+    cd d:/learngit
+    把当前目录变成git可以管理的仓库
+    git init
+    
+把文件添加到版本库
+  d:/learngit文件夹下新建一个readme.txt,编辑时用第三方文本编辑器(windows各种问题)
+  1.用git add 告诉git,把文件添加到仓库
+  git add readme.txt
+  2.用git commit告诉git,把文件提交到仓库
+  git commit -m "wrote a readme file"
+  
+  
+  
+  
+
+
