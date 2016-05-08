@@ -1,2 +1,2 @@
 # webnote
-Web学习路线
+Web学习
