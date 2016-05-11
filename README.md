@@ -1,2 +1,2 @@
-# webnote
-Web学习
+# learn git
+git学习
